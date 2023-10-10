@@ -18,7 +18,6 @@ public class Category {
     private Category parent;
 
     @OneToMany(mappedBy = "parent")
-    @JoinColumn(name = "CHILD_ID")
     private List<Category> childs = new ArrayList<>();
 
     @ManyToMany()
