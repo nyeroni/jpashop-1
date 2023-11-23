@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7b064fc-94db-41d9-ab11-6726852868d5" name="변경" comment="Update: BaseEntity 생성 및 적용">
+    <list default="true" id="e7b064fc-94db-41d9-ab11-6726852868d5" name="변경" comment="Update: 영속성 전아 설정">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +44,9 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;문제&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -94,6 +100,13 @@
       <workItem from="1697122091237" duration="1042000" />
       <workItem from="1697123152374" duration="280000" />
       <workItem from="1697123466461" duration="1967000" />
+      <workItem from="1697535509465" duration="873000" />
+      <workItem from="1699182591443" duration="28000" />
+      <workItem from="1699616568553" duration="1000000" />
+      <workItem from="1699872818570" duration="372000" />
+      <workItem from="1699945510990" duration="2382000" />
+      <workItem from="1700216627625" duration="205000" />
+      <workItem from="1700757549780" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -199,7 +212,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697124496052</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update: 지연 로딩으로 변경">
+      <option name="closed" value="true" />
+      <created>1697535717553</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697535717553</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update: 영속성 전아 설정">
+      <option name="closed" value="true" />
+      <created>1697535743447</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697535743447</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +259,9 @@
     <MESSAGE value="Update: hibernate 버전 업그레이드" />
     <MESSAGE value="Update: 상품 예시" />
     <MESSAGE value="Update: BaseEntity 생성 및 적용" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: BaseEntity 생성 및 적용" />
+    <MESSAGE value="Update: 지연 로딩으로 변경" />
+    <MESSAGE value="Update: 영속성 전아 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: 영속성 전아 설정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -244,6 +275,12 @@
           <url>file://$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Item.java</url>
           <line>12</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Category.java</url>
+          <line>11</line>
+          <properties field="id" class="jpabook.jpashop.domain.Category" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
